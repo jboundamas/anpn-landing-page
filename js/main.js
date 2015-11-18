@@ -1,21 +1,21 @@
 function iconHover() {
-	var image3 = document.getElementById("plan-icon");
-	var link3 = document.getElementById("applicationLink");
+	var image = document.getElementById("plan-icon");
+	var link = document.getElementById("applicationLink");
 
 	if (!("ontouchstart" in document.documentElement) && 
 		! (navigator.maxTouchPoints > 0) &&
 		! (navigator.msMaxTouchPoints > 0) ){
 
-	link3.addEventListener("mouseover", function(){
+	link.addEventListener("mouseover", function(){
 		if (window.location.hash == "#l=en") {
-			image3.src="img/coming-soon-icon.svg";
+			image.src="img/coming-soon-icon.svg";
 		}
 		else {
-			image3.src="img/a-venir-icon.svg"
+			image.src="img/a-venir-icon.svg"
 		}
 	}, false);
-	link3.addEventListener("mouseout", function(){
-		image3.src="img/plan-icon.svg";}, false);
+	link.addEventListener("mouseout", function(){
+		image.src="img/plan-icon.svg";}, false);
 	};   
 };
 
@@ -40,10 +40,9 @@ function langtoggle(l){
 //Check URL hash; set appropriate page language.
 function loadLanguage() {
 
-	var domain = window.location.origin.split(".")[1];
 	var hash = window.location.hash;
 
-	if (hash == '#l=en' || (hash == '' && domain == 'forest-atlas')) {
+	if (hash == '#l=en') {
 		langtoggle('en')
 	}
 	else {
