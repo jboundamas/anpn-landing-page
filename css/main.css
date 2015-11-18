@@ -1,0 +1,298 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Fira Sans",Helvetica,sans-serif;
+    color: #000;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+  body { 
+    font-stretch: condensed;    }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.subtitle-text {
+    display: none;
+}
+
+@media(min-width:991px) {
+    .subtitle-text {
+        display: block;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 60px;
+    }
+
+}
+
+.copyright {
+    color: #fff;
+    font-size: 12px;
+    margin: 20px 10px;
+    text-transform: none;
+}
+
+.copyright:hover,
+.copyright:focus {
+    color: #f0ab00;
+    text-transform: none;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+@media(min-width:767px) {
+    p {
+        margin: 0 0 20px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+
+a {
+    color: #fff;
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+.bodyLink {
+    text-decoration: underline;
+    color: #000;
+}
+
+.bodyLink:hover,
+.bodyLink:focus {
+    color: #f0ab00;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.intro, .bcg {
+    display: table;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    color: #fff;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body .brand-heading {
+    text-shadow: 1px 1px 1px #747474;
+    font-size: 32px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #747474;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lang-button {
+    padding: 15px 0px;
+}
+
+@media(min-width:767px) {
+    .intro, .bcg {
+        width: 100%;
+        height: auto;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 22px;
+    }
+
+    .content-section {
+        padding-top: 20px;
+    }
+
+    .supporter {
+        display: block;
+        width: 14%;
+    }
+}
+
+.content-section {
+    padding: 20px 0px;
+}   
+
+@media(min-width: 767px) {
+    .bodyRow {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.module-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(min-width: 991px) {
+    .module-icon {
+        padding: 100px 80px 10px 80px;
+    }
+}
+
+.inactive {
+    display: none;
+}
+
+@media(min-width:767px) {
+    .inactive {
+        display: block;
+    }
+}
+
+footer {
+    padding-top: 20px;
+    background-color: #eee;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+.footerTitle {
+    color: #000;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footerText {
+    color: #747474;
+    padding-bottom: 20px;
+}
+.footerText a {
+    color: #000;
+
+}
+
+.footerText a:hover,
+.footerText a:focus {
+    color: #f0ab00;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: rgba(0,100,255,0.2);
+}
+
+::selection {
+    text-shadow: none;
+    background: rgba(0,100,255,0.2);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.title-background {
+    background-color: rgba(200,200,200,0.4);
+}
+
+.language-menu {
+    margin: 10px 0px;
+}
+
+.flag {
+    align:right;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: "Fira Sans",Helvetica,sans-serif;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgba(200,200,200,0.6);
+    padding: 0;
+    border: 0;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+
+}
+
+.btn-default {
+    padding: 10px;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    color: #fff;
+    background-color: #f0ab00;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.appIcon {
+  padding: 0px 30px;
+}
+
+.partnerIcon {
+  padding: 0px 60px;
+}
