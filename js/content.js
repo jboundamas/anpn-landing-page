@@ -2,11 +2,11 @@
     en: {
         EngButton: "English",
         FrButton: "Français",
-        Title: "National Agency for National Parks of Gabon",
-        SubTitle: "Pastrami porchetta rump, doner sausage prosciutto tenderloin",
-        ApplicationModule: "Application 1",
+        Title: "Protected Areas Informations System",
+        SubTitle: "National Agency of National Parks",
+        ApplicationModule: "Global Data",
         AboutTitle: "About the ANPN",
-        AboutText: "<p>Sartorial farm-to-table chartreuse franzen gluten-free kitsch gentrify. Shoreditch venmo you probably haven't heard of them, paleo green juice selfies pinterest keffiyeh yr chicharrones helvetica. Cliche fap franzen art party, salvia heirloom vice whatever semiotics. Next level stumptown church-key, 8-bit mlkshk artisan shabby chic hella trust fund ethical. Lomo etsy lumbersexual normcore, thundercats tumblr meggings plaid craft beer marfa +1 fashion axe vice. Venmo brunch mustache, thundercats gluten-free roof party cred fashion axe deep v poutine messenger bag next level blue bottle vegan selfies. Blue bottle drinking vinegar crucifix pinterest, narwhal kale chips bitters next level deep v bushwick squid distillery.</p><p>Literally polaroid lomo, pabst brunch stumptown flannel umami heirloom tousled quinoa lumbersexual brooklyn gluten-free. Cold-pressed chambray wolf ethical. Yuccie pabst tattooed put a bird on it, bespoke etsy readymade beard schlitz green juice. Slow-carb umami whatever, keffiyeh distillery synth everyday carry. Put a bird on it PBR&B pitchfork, disrupt art party locavore skateboard letterpress yr mumblecore. Vice hella kitsch yuccie, swag DIY organic meditation. Celiac tumblr distillery cardigan twee flexitarian.",
+        AboutText: "<p>Protected Areas Information System (PAIS) is a daily working tool for policy makers and managers of protected areas under the supervision of the National Agency of National Parks (ANPN). The main objective of this system is to enable monitoring of the many activities taking place in the parks, but also to allow interconnection between different actors ANPN regardless of their location around the world.</p><p>PAIS allows the sharing and pooling of information of all of Gabon's national parks system. Indeed, it enables collaboration and data management of protected areas in order to facilitate access and dissemination to the benefit of development and enhancement of these conserved areas.</p><p>Modern and effective management of geographic data ANPN facilitates data mining. Automatically and depending on the user's choice, the system will initiate statistical and spatial analysis and display the results that can be exploited in other documents.</p>",
         AppTitle: "Other applications",
         PartnerTitle: "A partnership between",
         Share: "Share this page",
@@ -18,11 +18,11 @@
     fr: {
         EngButton: "English",
         FrButton: "Français",
-        Title: "Agence Nationale des Parcs Nationaux du Gabon",
-        SubTitle: "Un établissement public à caractère scientifique et environnemental",
-        ApplicationModule: "Application 1",
-        AboutTitle: "A Propos de l'ANPN",
-        AboutText: "<p>Wayfarers XOXO chia, listicle four loko keytar kickstarter literally mixtape chicharrones normcore. Seitan shoreditch mumblecore listicle, irony green juice retro waistcoat. Cold-pressed gluten-free franzen art party helvetica, whatever health goth tumblr. Next level franzen helvetica VHS. Cred offal pug heirloom, bicycle rights chartreuse chicharrones. 3 wolf moon pug before they sold out flannel pop-up crucifix. Artisan godard gluten-free, intelligentsia pickled messenger bag yr taxidermy flannel pork belly.</p><p>Typewriter keytar pickled, tousled biodiesel mixtape flannel vice 8-bit you probably haven't heard of them helvetica. Fap master cleanse schlitz, vegan offal PBR&B crucifix thundercats. Pug chartreuse YOLO, kogi franzen bicycle rights synth 3 wolf moon ramps williamsburg offal chicharrones skateboard. Butcher four loko gastropub, four dollar toast offal XOXO VHS knausgaard biodiesel microdosing tumblr heirloom. Narwhal four dollar toast migas, thundercats quinoa dreamcatcher yuccie food truck disrupt plaid cornhole. DIY celiac ugh fashion axe, shoreditch master cleanse slow-carb pork belly tacos church-key. Cliche everyday carry four loko helvetica.</p>",    
+        Title: "Système d'Informations des Aires Protégées",
+        SubTitle: "Agence Nationale des Parcs Nationaux",
+        ApplicationModule: "Données Globales",
+        AboutTitle: "A Propos du SIAP",
+        AboutText: "<p>Le Système d’Information des Aires Protégées (SIAP) est un outil de travail quotidien pour les décideurs et les gestionnaires des aires protégées sous tutelle de l’Agence Nationale des Parcs Nationaux (ANPN). L’objectif principal de ce système est de permettre un suivi des nombreuses activités qui se déroulent au sein des parcs, mais aussi, de permettre une interconnexion entre les différents acteurs de l’ANPN quel que soit leur emplacement sur le globe.</p><p>Le SIAP permet le partage et la mutualisation de l’information de l’ensemble du réseau des parcs nationaux du Gabon. En effet, il permet la collaboration et la gestion des données sur les aires protégées en vue d’en faciliter l’accès et la diffusion au bénéfice de l’aménagement et de la valorisation de ces espaces conservés.</p><p>La gestion moderne et efficace des données géographiques de l’ANPN facilite l’exploitation des données. De manière automatisée et en fonction des choix de l’utilisateur, le système pourra lancer des analyses statistiques et spatiales et en afficher les résultats qui pourront être exploités dans d’autres documents.</p>",    
         AppTitle: "Autres applications",
         PartnerTitle: "Un partenariat entre",
         Share: "Partager cette page",
@@ -30,6 +30,7 @@
         Contact1: "<p>Ghislain Moussavou</p><p><i>Coordinateur National du Gabon, WRI</i></p><p><a href='mailto:gmoussavou@wri.org'>gmoussavou@wri.org</a></p>",
         Contact2: "<p>Matthew Steil</p><p><i>Gestionnaire, Forêts d'Afrique Centrale, WRI</i></p><p><a href='mailto:msteil@wri.org'>msteil@wri.org</a></p>"
     }
+	
 }
 
 var flag = {
@@ -66,6 +67,7 @@ var apps = {
         srcActive: "img/logo/gfw-logo.png",
         alt: "GFW"
     }
+	
 }
 
 var partners = {
